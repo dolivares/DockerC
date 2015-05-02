@@ -1,0 +1,13 @@
+web: 
+    build: .
+    volumes:
+        - "~/Development/reg5:/home/docker/src"
+    ports: 
+        - "3000:3000"
+    links: 
+    	- "db:redis"
+    	
+db:
+	image: redis
+
+
