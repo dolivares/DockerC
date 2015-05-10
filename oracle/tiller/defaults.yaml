@@ -1,0 +1,7 @@
+global:
+    oracle_home: '/u01/app/oracle/product/11.2.0/xe' 
+    oracle_enable: 'y'
+    oracle_listener_port: '1521'
+    oracle_http_port: '8080'
+    oracle_password: 'jade'
+

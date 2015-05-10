@@ -1,0 +1,13 @@
+
+description "System settings to support Oracle 11g"
+
+start on filesystem
+
+task
+
+script
+    rm -rf /dev/shm
+    mkdir /dev/shm
+    mount -t tmpfs shmfs -o size=2048m /dev/shm
+end script
+

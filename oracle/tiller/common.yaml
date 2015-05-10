@@ -1,0 +1,6 @@
+exe: date
+data_sources:
+  - defaults
+  - file 
+template_sources:
+  - file

@@ -1,0 +1,6 @@
+ORACLE_HOME=<%= oracle_home %>; export ORACLE_HOME
+ORACLE_SID=XE; export ORACLE_SID
+PATH=$ORACLE_HOME/bin:$PATH; export PATH
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH
+NLS_LANG=`$ORACLE_HOME/bin/nls_lang.sh`; export NLS_LANG
+ORACLE_BASE=/u01/app/oracle; export ORACLE_BASE
